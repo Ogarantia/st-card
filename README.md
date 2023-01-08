@@ -14,7 +14,7 @@ pip install ogarantia-streamlit-card
 
 usage, import the `card` function from `ogarantia-streamlit_card`
 ```py
-from ogarantia-streamlit_card import card
+from ogarantia_streamlit_card import card
 
 hasClicked = card(
   title="Hello World!",
@@ -23,4 +23,3 @@ hasClicked = card(
   url="https://github.com/Ogarantia/st-card"
 )
 ```
-
