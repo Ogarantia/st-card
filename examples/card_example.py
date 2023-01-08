@@ -1,6 +1,6 @@
 import streamlit as st
 
-from streamlit_card import card
+from ogarantia_streamlit_card import card
 
 st.title("Streamlit Card - test")
 

@@ -5,14 +5,14 @@ with open('README.md') as readme_file:
 
 
 setuptools.setup(
-    name="streamlit-card",
-    version="0.0.4",
-    author="gamcoh",
-    author_email="cohengamliel8@gmail.com",
-    description="A streamlit component, to make UI cards",
+    name="ogarantia-streamlit-card",
+    version="0.0.1",
+    author="Wilder Lopes",
+    author_email="wilder@ogarantia.com",
+    description="A streamlit component to make UI cards, adapted for Ogarantia applications. Based on streamlit-card by gamcoh (cohengamliel8@gmail.com) - https://github.com/gamcoh/st-card.git",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/gamcoh/st-card",
+    url="https://github.com/Ogarantia/st-card.git",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[

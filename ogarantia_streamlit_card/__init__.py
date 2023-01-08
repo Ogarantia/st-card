@@ -4,7 +4,7 @@ from typing import Optional
 import streamlit.components.v1 as components
 
 _RELEASE = True
-COMPONENT_NAME = "streamlit_card"
+COMPONENT_NAME = "ogarantia_streamlit_card"
 
 if _RELEASE:  # use the build instead of development if release is true
     root_dir = os.path.dirname(os.path.abspath(__file__))
@@ -22,6 +22,9 @@ def card(
     text: str,
     image: Optional[str] = None,
     url: Optional[str] = None,
+    height: Optional[int] = 250,
+    width: Optional[int] = 300,
+    margin: Optional[int] = 40,
     key: Optional[str] = None,
 ) -> bool:
     """Creates a UI card like component.
@@ -34,5 +37,5 @@ def card(
         key (str, optional): An optional key for the component. Defaults to None.
     """
     return _streamlit_card(
-        title=title, text=text, image=image, url=url, key=key, default=False
+        title=title, text=text, image=image, url=url, height=height, width=width, key=key, default=False
     )

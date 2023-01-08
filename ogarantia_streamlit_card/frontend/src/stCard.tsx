@@ -29,9 +29,9 @@ class Card extends StreamlitComponentBase {
       return <div>Theme is undefined, please check streamlit version.</div>;
     }
 
-    const height = 250;
-    const width = 300;
-    const margin = 40;
+    const height = this.props.args.height;
+    const width = this.props.args.width;
+    const margin = this.props.args.margin;
 
     const Card = styled.div(
       {
@@ -76,7 +76,7 @@ class Card extends StreamlitComponentBase {
     const Title = styled.h2({
       color: "white",
       zIndex: "2",
-      fontSize: "2em",
+      fontSize: "1.5em",
       fontWeight: "bolder",
     });
 
@@ -84,7 +84,7 @@ class Card extends StreamlitComponentBase {
       color: "white",
       fontWeight: "bolder",
       zIndex: "2",
-      fontSize: "1em",
+      fontSize: "0.8em",
     });
 
     const Filter = styled.div({
