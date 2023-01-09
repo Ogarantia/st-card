@@ -6,10 +6,10 @@ with open('README.md') as readme_file:
 
 setuptools.setup(
     name="ogarantia-streamlit-card",
-    version="0.0.1",
+    version="0.0.2",
     author="Wilder Lopes",
     author_email="wilder@ogarantia.com",
-    description="A streamlit component to make UI cards, adapted for Ogarantia applications. Based on streamlit-card by gamcoh (cohengamliel8@gmail.com) - https://github.com/gamcoh/st-card.git",
+    description="A streamlit component to make UI cards, adapted for Ogarantia applications from `streamlit-card` by gamcoh (cohengamliel8@gmail.com)",
     long_description=readme,
     long_description_content_type="text/markdown",
     url="https://github.com/Ogarantia/st-card.git",

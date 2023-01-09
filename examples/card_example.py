@@ -7,7 +7,7 @@ st.title("Streamlit Card - example")
 res = card(
     title="Streamlit Card",
     text="This is a test card",
-    image="https://get.ogre.run/images/ogarantia_logoBlue.png"
+    image="https://get.ogre.run/images/ogarantia_logoBlue.png",
     url="https://github.com/Ogarantia/st-card"
 )
 

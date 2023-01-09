@@ -1,1 +1,1 @@
-recursive-include streamlit_card/frontend/build *
+recursive-include ogarantia_streamlit_card/frontend/build *
