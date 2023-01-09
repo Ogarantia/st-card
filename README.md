@@ -64,3 +64,5 @@ hasClicked = card(
   url="https://github.com/Ogarantia/st-card"
 )
 ```
+
+## Push to PyPi
